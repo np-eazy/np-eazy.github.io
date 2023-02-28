@@ -1,0 +1,75 @@
+.hobbies-menu {
+    width: var(--page-width); 
+    margin: 20px;
+    margin-right: 10000px;
+    padding-left: 200px;
+    padding-right: 50px;
+    padding-top: 0px;
+    display: flex;
+    position: relative;
+    color: white;
+  }
+  
+.hobbies {
+  width: var(--page-width); 
+  height: 1000px;
+  margin: 20px;
+  margin-bottom: 0px;
+  padding: 50px;
+  padding-left: 100px;
+  padding-right: 0px;
+  border-top-right-radius: 150px;
+
+  color: white;
+  background-image: linear-gradient(to left, var(--theme-gray-6b), var(--background-color));
+}
+
+.menu-button {
+  width: 100px;
+  height: 50px;  
+  margin: 20px;
+  border: 1px solid green;
+}
+
+.hobby-button {
+  width: 100px;
+  min-height: 65px;
+  display: flex;
+  float: left;
+  margin: 20px;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+  
+  border-radius: 10px;
+  font-family: "Nunito Bold";
+  font-size: 23px;
+  width: 250px;
+  filter: drop-shadow(10px 10px 10px #101014);
+}
+
+.hobby-display {
+  position: relative;
+}
+
+.hobby-statement {
+  width: 550px;
+  height: 1000px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+  
+.hobby-slideshow {
+  width: 600; 
+  height: 1100px;
+  margin: 20px;
+  padding: 50px;
+}
+  
+  .contacts {
+    width: var(--page-width); 
+  
+    margin: 20px;
+    border: 1px solid green;
+    padding: 50px;
+  }

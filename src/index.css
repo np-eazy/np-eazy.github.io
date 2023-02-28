@@ -1,0 +1,92 @@
+body {
+  --page-width: 1200px;
+  --cover-height: 500px;
+  max-width: 1350px;
+  margin: 0 auto;
+
+  --theme-gray-6b: #2d2a34;
+  --theme-gray-4b: #3f3944;
+  --theme-gray-2b: #4e4642;
+  --theme-gray-4h: #9f95ad;
+  --theme-gray-6h: #b6adc4;
+
+  --theme-green: #54efd1;
+  --theme-blue: #42d2ea;
+  --theme-magenta: #ea4ba6;
+  --theme-orange: #ef8e2e;
+  --background-color: #232028;
+  background-color: var(--background-color);
+
+  font-family: 'Nunito', 'Nunito Bold', 'Nunito ExtraBold', 'Nunito Light', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Nunito Light';
+  src: url('fonts/Nunito_Sans/NunitoSans-Light.ttf');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito Regular';
+  src: url('fonts/Nunito_Sans/NunitoSans-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito Bold';
+  src: url('fonts/Nunito_Sans/NunitoSans-Bold.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito ExtraBold';
+  src: url('fonts/Nunito_Sans/NunitoSans-Black.ttf');
+  font-weight: 800;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Nunito Regular";
+  filter: drop-shadow(10px 10px 10px #1a1a1a);
+  font-size: 88px;
+  line-height: 0.5;
+
+}
+
+h2 {
+  font-family: "Nunito Bold";
+  color: white;
+}
+
+h3 {
+  font-family: "Nunito Regular";
+  filter: drop-shadow(10px 10px 10px #1a1a1a);
+  font-size: 22px;
+  line-height: 1.5;
+  color: var(--theme-gray-6h);
+}
+
+p {
+  font-family: "Nunito Regular";
+  font-size: 18px;
+  color: var(--theme-gray-6h);
+  line-height: 1.5;
+}
+
+a {
+  color: var(--theme-gray-6h);
+}
+
+a:visited {
+  color: var(--theme-gray-6h);
+}
+
+a:hover {
+  color: var(--theme-blue);
+}
+
